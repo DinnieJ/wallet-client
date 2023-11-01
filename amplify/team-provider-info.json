@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-walletclient-dev-202430-authRole",
+      "UnauthRoleArn": "arn:aws:iam::026782371687:role/amplify-walletclient-dev-202430-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::026782371687:role/amplify-walletclient-dev-202430-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-walletclient-dev-202430-deployment",
+      "UnauthRoleName": "amplify-walletclient-dev-202430-unauthRole",
+      "StackName": "amplify-walletclient-dev-202430",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:026782371687:stack/amplify-walletclient-dev-202430/fef38880-78b9-11ee-8886-0a9c8a897e96",
+      "AmplifyAppId": "d11tpe6mw32r66"
+    },
+    "categories": {
+      "auth": {
+        "walletclient41e2a9a9": {}
+      }
+    }
+  }
+}
