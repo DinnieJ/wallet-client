@@ -13,8 +13,8 @@ import { Amplify } from 'aws-amplify'
 Amplify.configure({
   Auth: {
     region: "ap-southeast-1",
-    userPoolId: "ap-southeast-1_7x8F21tol",
-    userPoolWebClientId: "1jan65n5idlaaa1s8rpg2crk31"
+    userPoolId: "ap-southeast-1_hAZ7sXLBE",
+    userPoolWebClientId: "12o6n491ogcdoupu47jl2522p6"
   }
 })
 
