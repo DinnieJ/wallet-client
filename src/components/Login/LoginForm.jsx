@@ -16,9 +16,7 @@ LoginForm(props) {
         variant="contained"
         startIcon={<GoogleIcon />}
         onClick={() =>
-          Auth.federatedSignIn({
-            provider: CognitoHostedUIIdentityProvider.Cognito,
-          })
+          window.location.href = "https://walletclient0c49a695-0c49a695-master.auth.ap-southeast-1.amazoncognito.com/login?redirect_uri=http://localhost:5000/callback/&response_type=code&client_id=1gvhaehnlao5vgvjn12e0vkl8a&identity_provider=COGNITO&scope=phone email profile openid aws.cognito.signin.user.admin"
         }
       >
         Login with MAuthen
